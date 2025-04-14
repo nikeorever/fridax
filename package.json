@@ -1,0 +1,44 @@
+{
+  "name": "fridax",
+  "version": "1.0.0",
+  "main": "./dist/fridax.js",
+  "module": "./dist/fridax.mjs",
+  "types": "./dist/fridax.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikeorever/fridax.git"
+  },
+  "keywords": [
+    "frida"
+  ],
+  "author": "Lenox <nikeorever@gmail.com> (https://nikeorever.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikeorever/fridax/issues"
+  },
+  "homepage": "https://github.com/nikeorever/fridax#readme",
+  "description": "Makes it easier for you to develop Frida scripts!",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "@types/frida-gum": "^18.8.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
