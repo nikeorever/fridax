@@ -1,6 +1,6 @@
 {
   "name": "fridax",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "./dist/fridax.js",
   "module": "./dist/fridax.mjs",
   "types": "./dist/fridax.d.ts",
